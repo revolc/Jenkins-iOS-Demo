@@ -241,10 +241,14 @@
 		600D8D9316EAD0B7002468DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Pansi Infinity Beijing Technology Co,.Ltd";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Pansi Infinity Beijing Technology Co,.Ltd";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Jenkins-iOS-Demo/Jenkins-iOS-Demo-Prefix.pch";
 				INFOPLIST_FILE = "Jenkins-iOS-Demo/Jenkins-iOS-Demo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B7AAF7F6-38F4-4B92-BAF7-FD99415790C7";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B7AAF7F6-38F4-4B92-BAF7-FD99415790C7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -252,10 +256,14 @@
 		600D8D9416EAD0B7002468DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: qi zhou (9UU224M84U)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: qi zhou (9UU224M84U)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Jenkins-iOS-Demo/Jenkins-iOS-Demo-Prefix.pch";
 				INFOPLIST_FILE = "Jenkins-iOS-Demo/Jenkins-iOS-Demo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5B25E908-75F0-4DB3-919B-0638D325B86B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5B25E908-75F0-4DB3-919B-0638D325B86B";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -279,6 +287,7 @@
 				600D8D9416EAD0B7002468DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
