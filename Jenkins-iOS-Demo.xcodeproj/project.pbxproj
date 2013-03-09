@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		600D8D7916EAD0B7002468DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 600D8D7816EAD0B7002468DC /* UIKit.framework */; };
+		600D8D7B16EAD0B7002468DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 600D8D7A16EAD0B7002468DC /* Foundation.framework */; };
+		600D8D7D16EAD0B7002468DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 600D8D7C16EAD0B7002468DC /* CoreGraphics.framework */; };
+		600D8D8316EAD0B7002468DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 600D8D8116EAD0B7002468DC /* InfoPlist.strings */; };
+		600D8D8516EAD0B7002468DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 600D8D8416EAD0B7002468DC /* main.m */; };
+		600D8D8916EAD0B7002468DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 600D8D8816EAD0B7002468DC /* AppDelegate.m */; };
+		600D8D8C16EAD0B7002468DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 600D8D8B16EAD0B7002468DC /* ViewController.m */; };
+		600D8D8F16EAD0B7002468DC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 600D8D8D16EAD0B7002468DC /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		600D8D7416EAD0B7002468DC /* Jenkins-iOS-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jenkins-iOS-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		600D8D7816EAD0B7002468DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		600D8D7A16EAD0B7002468DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		600D8D7C16EAD0B7002468DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		600D8D8016EAD0B7002468DC /* Jenkins-iOS-Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jenkins-iOS-Demo-Info.plist"; sourceTree = "<group>"; };
+		600D8D8216EAD0B7002468DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		600D8D8416EAD0B7002468DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		600D8D8616EAD0B7002468DC /* Jenkins-iOS-Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jenkins-iOS-Demo-Prefix.pch"; sourceTree = "<group>"; };
+		600D8D8716EAD0B7002468DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		600D8D8816EAD0B7002468DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		600D8D8A16EAD0B7002468DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		600D8D8B16EAD0B7002468DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		600D8D8E16EAD0B7002468DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		600D8D7116EAD0B7002468DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				600D8D7916EAD0B7002468DC /* UIKit.framework in Frameworks */,
+				600D8D7B16EAD0B7002468DC /* Foundation.framework in Frameworks */,
+				600D8D7D16EAD0B7002468DC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		600D8D6916EAD0B7002468DC = {
+			isa = PBXGroup;
+			children = (
+				600D8D7E16EAD0B7002468DC /* Jenkins-iOS-Demo */,
+				600D8D7716EAD0B7002468DC /* Frameworks */,
+				600D8D7516EAD0B7002468DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		600D8D7516EAD0B7002468DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				600D8D7416EAD0B7002468DC /* Jenkins-iOS-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		600D8D7716EAD0B7002468DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				600D8D7816EAD0B7002468DC /* UIKit.framework */,
+				600D8D7A16EAD0B7002468DC /* Foundation.framework */,
+				600D8D7C16EAD0B7002468DC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		600D8D7E16EAD0B7002468DC /* Jenkins-iOS-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				600D8D8716EAD0B7002468DC /* AppDelegate.h */,
+				600D8D8816EAD0B7002468DC /* AppDelegate.m */,
+				600D8D8A16EAD0B7002468DC /* ViewController.h */,
+				600D8D8B16EAD0B7002468DC /* ViewController.m */,
+				600D8D8D16EAD0B7002468DC /* ViewController.xib */,
+				600D8D7F16EAD0B7002468DC /* Supporting Files */,
+			);
+			path = "Jenkins-iOS-Demo";
+			sourceTree = "<group>";
+		};
+		600D8D7F16EAD0B7002468DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				600D8D8016EAD0B7002468DC /* Jenkins-iOS-Demo-Info.plist */,
+				600D8D8116EAD0B7002468DC /* InfoPlist.strings */,
+				600D8D8416EAD0B7002468DC /* main.m */,
+				600D8D8616EAD0B7002468DC /* Jenkins-iOS-Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		600D8D7316EAD0B7002468DC /* Jenkins-iOS-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 600D8D9216EAD0B7002468DC /* Build configuration list for PBXNativeTarget "Jenkins-iOS-Demo" */;
+			buildPhases = (
+				600D8D7016EAD0B7002468DC /* Sources */,
+				600D8D7116EAD0B7002468DC /* Frameworks */,
+				600D8D7216EAD0B7002468DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jenkins-iOS-Demo";
+			productName = "Jenkins-iOS-Demo";
+			productReference = 600D8D7416EAD0B7002468DC /* Jenkins-iOS-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		600D8D6B16EAD0B7002468DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "宇 李";
+			};
+			buildConfigurationList = 600D8D6E16EAD0B7002468DC /* Build configuration list for PBXProject "Jenkins-iOS-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 600D8D6916EAD0B7002468DC;
+			productRefGroup = 600D8D7516EAD0B7002468DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				600D8D7316EAD0B7002468DC /* Jenkins-iOS-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		600D8D7216EAD0B7002468DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				600D8D8316EAD0B7002468DC /* InfoPlist.strings in Resources */,
+				600D8D8F16EAD0B7002468DC /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		600D8D7016EAD0B7002468DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				600D8D8516EAD0B7002468DC /* main.m in Sources */,
+				600D8D8916EAD0B7002468DC /* AppDelegate.m in Sources */,
+				600D8D8C16EAD0B7002468DC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		600D8D8116EAD0B7002468DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				600D8D8216EAD0B7002468DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		600D8D8D16EAD0B7002468DC /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				600D8D8E16EAD0B7002468DC /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		600D8D9016EAD0B7002468DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		600D8D9116EAD0B7002468DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		600D8D9316EAD0B7002468DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jenkins-iOS-Demo/Jenkins-iOS-Demo-Prefix.pch";
+				INFOPLIST_FILE = "Jenkins-iOS-Demo/Jenkins-iOS-Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		600D8D9416EAD0B7002468DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jenkins-iOS-Demo/Jenkins-iOS-Demo-Prefix.pch";
+				INFOPLIST_FILE = "Jenkins-iOS-Demo/Jenkins-iOS-Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		600D8D6E16EAD0B7002468DC /* Build configuration list for PBXProject "Jenkins-iOS-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				600D8D9016EAD0B7002468DC /* Debug */,
+				600D8D9116EAD0B7002468DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		600D8D9216EAD0B7002468DC /* Build configuration list for PBXNativeTarget "Jenkins-iOS-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				600D8D9316EAD0B7002468DC /* Debug */,
+				600D8D9416EAD0B7002468DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 600D8D6B16EAD0B7002468DC /* Project object */;
+}
